@@ -3891,6 +3891,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-slideshow__title {
+  opacity: 0;
   font-size: 16px;
   font-weight: 700
 }
