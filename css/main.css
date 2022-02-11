@@ -235,7 +235,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.9);
-    z-index: 1;
+    z-index: 4;
 }
 .b-popup-content{
 /*    margin:auto auto auto auto;
@@ -365,7 +365,7 @@
 .close-modal {
   color: white;
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   margin-left: 357px;
 }
 
