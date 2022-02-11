@@ -235,7 +235,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.93);
-    z-index: 4;
+    z-index: 999;
 }
 .b-popup-content{
 /*    margin:auto auto auto auto;
@@ -275,7 +275,7 @@
     user-select: none;
     text-align: center;
     border-radius: 8px;
-    margin-bottom: 22px;
+    margin-bottom: 19px;
 }
 
 #slidewrapper {
@@ -365,13 +365,13 @@
   font-family: "Exo 2", Sans-serif;
   text-align: left;
   margin-bottom: 12px;
-  line-height: 19px;
+  line-height: 16px;
 }
 
 .close-modal {
   color: white;
   position: absolute;
-  z-index: 5;
+  z-index: 9999;
   margin-left: 357px;
 }
 
@@ -383,7 +383,7 @@
   background-color: #C50C2C1A;
   color: #FFFFFF;
   border-color: var( --e-global-color-4f2f3ae );
-  font-size: 20px;
+  font-size: 14px!important;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -403,7 +403,7 @@
   overflow: hidden;
   box-shadow: inset 0px 0px 0px #2F3B47;
   max-width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 8px;
 }
 
@@ -428,7 +428,7 @@
   transform: skew(-10deg);
   display: flex;
   justify-content: center;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .title-in-popup h2 {
