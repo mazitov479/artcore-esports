@@ -234,7 +234,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.93);
     z-index: 4;
 }
 .b-popup-content{
@@ -245,17 +245,23 @@
     background-color: #c5c5c5;
     border-radius:5px;
     box-shadow: 0px 0px 10px #000;*/
-    background-color: #151515;
+    background-image:
+      linear-gradient(to top, rgba(21,21,21,0.98), rgba(21,21,21,0.98)),
+      url(../images/popup-bg.jpeg);
     border-radius: 8px;
-    width: 380px
+    width: 380px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F5F5F566;
+    transition: background 0.3s, border 0.3s, box-shadow 0.3s;
 }
 
 /* Slider */
 
 
 #block-for-slider {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #viewport {
@@ -269,7 +275,7 @@
     user-select: none;
     text-align: center;
     border-radius: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 22px;
 }
 
 #slidewrapper {
@@ -370,5 +376,66 @@
 }
 
 .close-modal:hover {
-  color: red;
+  color: #fb1f1f;
+}
+
+.button-in-popup {
+  background-color: #C50C2C1A;
+  color: #FFFFFF;
+  border-color: var( --e-global-color-4f2f3ae );
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 0px 0px 0px 0px;
+  padding: 19px 30px 19px 30px;
+  font-family: "Play", Sans-serif;
+  font-size: 20px;
+  transition: .4s;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  flex-basis: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px #2F3B47;
+  max-width: 200px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.button-in-popup:hover {
+  /*background-color: rgba(15, 15, 15, 0);*/
+  /*color: #FFFFFF;*/
+  border-color: var( --e-global-color-4f2f3ae );
+  transform: scale(1.1);
+  box-shadow: inset 200px 0px 0px #fb1f1f;
+}
+
+.div-button-in-popup {
+  display: flex;
+  justify-content: center;
+}
+
+.title-in-popup {
+  font-family: "Play", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: skew(-10deg);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.title-in-popup h2 {
+  color: #FFFFFF;
+}
+
+.bg-popup {
+  background: red;
+  padding: 0px 5px;
 }
