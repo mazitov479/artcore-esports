@@ -127,7 +127,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .page-heading { font-size: 32px; }
 
-.post-list-heading { font-size: 28px; color: #FFFFFF!important; font-family: "Play", Sans-serif; font-size: 30px; font-weight: 600; text-transform: uppercase; margin-bottom: 20px; }
+.post-list-heading { font-size: 28px; color: #FFFFFF !important; font-family: "Play", Sans-serif; font-size: 30px; font-weight: 600; text-transform: uppercase; margin-bottom: 20px; }
 
 .post-list { margin-left: 0; list-style: none; }
 
@@ -135,7 +135,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-meta { font-size: 14px; color: #828282; }
 
-.post-link { display: block; color: #FFFFFF!important; font-family: "Play", Sans-serif; font-size: 24px; }
+.post-link { display: block; color: #FFFFFF !important; font-family: "Play", Sans-serif; font-size: 24px; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
