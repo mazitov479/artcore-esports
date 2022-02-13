@@ -57,6 +57,11 @@
   gap: 10px;
 }
 
+.news-section {
+  padding: 60px 0px 60px 0px;
+  background-image: url(../images/news-background.png);
+}
+
 
 
 
