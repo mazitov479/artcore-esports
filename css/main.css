@@ -1,3 +1,7 @@
+.display_block {
+  display: block!important;
+}
+
 .prices-block {
   font-family: "Play", Sans-serif;
   min-width: 186px;
@@ -109,6 +113,12 @@
 .quick-contacts {
   font-family: "Exo 2", Sans-serif;
   max-width: 185px;
+}
+
+.button-in-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-in-price button {
