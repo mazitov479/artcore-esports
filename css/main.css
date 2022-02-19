@@ -1,3 +1,27 @@
+.contacts-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #000;
+  grid-gap: 1px;
+}
+
+.contacts-table__item {
+  border: 1px solid black;
+  margin:0 -1px -1px 0;
+}
+
+.contacts-table__item i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-table__item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .display_block {
   display: block!important;
 }
